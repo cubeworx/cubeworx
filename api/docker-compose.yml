@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  cubeworx-api:
+    container_name: cubeworx-api
+    build: .
+    ports:
+      - '19132:19132/udp'
+      - "3000:3000"
+      - "9229:9229"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - node-modules:/opt/app/node_modules
+      - ./:/opt/app/
+
+volumes:
+  node-modules:

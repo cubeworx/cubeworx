@@ -1,0 +1,76 @@
+/*
+* Custom styles
+*/
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--surface-b);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+button[disabled] {
+  cursor: default;
+}
+
+.tsmp-progress-spinner {
+  min-width: 400px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+* Custom scrollbar styling
+*/
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--surface-d);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color:var(--surface-b);
+}
+
+/*
+* Global variables
+*/
+:root {
+  --dashboard-header-background-color: var(--surface-a);
+  --dashboard-sidebar-background-color: var(--surface-a);
+  --dashboard-navigation-link-active-background-color: #2E4563;
+  --panel-item-background-color: var(--surface-d);
+  --panel-item-header-background-color: #2f3d57;
+}
+
+/*
+* Font - Nunito
+*/
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+      url('/fonts/nunito-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/nunito-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

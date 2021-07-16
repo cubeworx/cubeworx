@@ -1,0 +1,4 @@
+{
+  "name": "Bedrock Default",
+  "image": "cubeworx/mcbe-server:latest"
+}

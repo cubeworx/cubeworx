@@ -1,0 +1,58 @@
+.p-panel.tsmp-panel-a {
+  --background-color: var(--surface-a);
+
+  > .p-panel-header {
+    background-color: var(--background-color);
+    border: none;
+
+    > .p-panel-title {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+
+  > .p-toggleable-content > .p-panel-content {
+    background-color: var(--background-color);
+    border: none;
+    border-top: 1px solid #2B3E59;
+  }
+}
+
+.p-panel.tsmp-panel-b {
+  --background-color: #2A3C57;
+  margin: 0.5em;
+
+  > .p-panel-header {
+    background-color: var(--background-color);
+    border: none;
+    padding: 0.5em 1em;
+
+    > .p-panel-title {
+      font-size: 1.1em;
+      line-height: 2em;
+    }
+  }
+
+  > .p-toggleable-content > .p-panel-content {
+    padding: 1em;
+    background-color: var(--background-color);
+    border: none;
+    border-top: 1px solid #314666;
+  }
+}
+
+.p-dialog {
+  border: none;
+  margin: 5em;
+  max-width: 1000px;
+
+  .p-dialog-header, .p-dialog-content, .p-dialog-footer {
+    padding: 1.5rem;
+  }
+
+  .p-dialog-content {
+    border-top: 1px solid var(--surface-d);
+    border-bottom: 1px solid var(--surface-d);
+  }
+}
+
