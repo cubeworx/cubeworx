@@ -1,5 +1,5 @@
 <template>
-  <Panel class="tsmp-panel-a" header="Your Servers">
+  <Panel class="cbwx-panel-a" header="Your Servers">
     <template #icons>
       <button class="p-panel-header-icon p-link p-ml-2" @click="openCreateServer" v-tooltip.left="'Create a new server'">
         <i class="fas fa-plus-circle"></i>

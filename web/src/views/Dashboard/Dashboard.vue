@@ -2,7 +2,7 @@
   <div id="dashboard">
     <header class="header p-shadow-8">
       <img class="logo" alt="Logo" src="@/assets/logo.png" width="70" height="70" />
-      <h1>TSMP</h1>
+      <h1>cbwx</h1>
     </header>
     <main class="main">
       <div class="sidebar">

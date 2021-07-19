@@ -1,5 +1,5 @@
 <template>
-  <Panel class="tsmp-panel-b tsmp-server p-shadow-2" :header=displayTitle>
+  <Panel class="cbwx-panel-b cbwx-server p-shadow-2" :header=displayTitle>
     <template #icons>
       <button class="p-panel-header-icon p-link p-ml-2" @click="onClickedShowLogs" v-tooltip.left="'View recent logs'">
         <i class="fas fa-info-circle"></i>
@@ -13,7 +13,7 @@
         <i v-if="busy" class="fas fa-sync-alt fa-spin"></i>
       </button>
     </template>
-    <div class="tsmp-content">
+    <div class="cbwx-content">
       <table>
         <tbody>
           <tr>
@@ -162,7 +162,7 @@ export default {
 </script>
 
 <style lang="less">
-  .tsmp-server .tsmp-content {
+  .cbwx-server .cbwx-content {
     font-size: 14px;
     min-width: 350px;
 

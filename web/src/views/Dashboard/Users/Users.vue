@@ -1,5 +1,5 @@
 <template>
-  <Panel class="tsmp-panel-a" header="User Management">
+  <Panel class="cbwx-panel-a" header="User Management">
     <template #default>
       <p>Admin management of users?</p>
     </template>

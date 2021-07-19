@@ -1,5 +1,5 @@
 <template>
-  <Panel class="tsmp-panel-a" header="Hosting Information">
+  <Panel class="cbwx-panel-a" header="Hosting Information">
     <template #default>
       <pre class="json-display">{{info}}</pre>
     </template>

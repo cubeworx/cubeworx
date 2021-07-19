@@ -2,12 +2,12 @@
   <Modal title="View Logs" ref="modal">
     <template v-slot:content>
       <template v-if="busy">
-        <div class="tsmp-progress-spinner">
+        <div class="cbwx-progress-spinner">
           <ProgressSpinner />
         </div>
       </template>
       <template v-else>
-        <div class="tsmp-logging-output">
+        <div class="cbwx-logging-output">
           <span v-for="log in logs" :key="log">{{log}}</span>
         </div>
       </template>
@@ -62,7 +62,7 @@ export default {
 </script>
 
 <style lang="less">
-  .tsmp-logging-output {
+  .cbwx-logging-output {
     font-family: monospace;
     font-size: 12px;
 

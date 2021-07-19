@@ -3,7 +3,7 @@
     <template v-slot:content>
       <div class="p-fluid">
         <template v-if="busy">
-          <div class="tsmp-progress-spinner">
+          <div class="cbwx-progress-spinner">
             <ProgressSpinner />
           </div>
         </template>
@@ -38,7 +38,7 @@ export default {
   data() {
     return {
       serverName: null,
-      imageName: 'tsmp-besrv:latest',
+      imageName: 'cbwx-besrv:latest',
       levelSeed: null,
       busy: false,
     };

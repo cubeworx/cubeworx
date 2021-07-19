@@ -1,5 +1,5 @@
 <template>
-  <Panel class="tsmp-panel-a" header="Explore Worlds">
+  <Panel class="cbwx-panel-a" header="Explore Worlds">
     <template #default>
       <p>A seed/map browser or something?</p>
     </template>
