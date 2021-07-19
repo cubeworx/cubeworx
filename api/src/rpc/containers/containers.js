@@ -15,7 +15,7 @@ async function create(application, params) {
 
   params.HostConfig.NetworkMode = application.dockerNetworkName;
   params.Labels = {
-    'cbwx.mcbe-announce.enable': 'true',
+    'cbwx.announce.enable': 'true',
   };
 
   console.log(`Creating container...`);

@@ -38,14 +38,14 @@ export default {
   data() {
     return {
       serverName: null,
-      imageName: 'cbwx-besrv:latest',
+      imageName: 'cubeworx/mcbe-server:latest',
       levelSeed: null,
       busy: false,
     };
   },
   methods: {
     openModal() {
-      this.serverName = 'My New Server';
+      this.serverName = 'NewServer';
       this.$refs.modal.openModal();
     },
     closeModal() {

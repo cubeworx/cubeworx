@@ -2,7 +2,7 @@ import EventEmitter from 'events';
 import Docker from 'dockerode';
 import Container from './Container.js';
 
-const TARGET_LABEL = 'cbwx.mcbe-announce.enable';
+const TARGET_LABEL = 'cbwx.announce.enable';
 const UPDATE_FREQUENCY = 5000;
 
 /*
